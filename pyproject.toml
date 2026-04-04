@@ -5,25 +5,27 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "spacehaven-cheat-engine"
 dynamic = ["version"]
-description = "A new project created from git-repokit-template"
+description = "Pattern-based bytecode patcher that removes skill/attribute point caps from Space Haven character creation"
 readme = "README.md"
 license = {text = "GPL-3.0-or-later"}
 requires-python = ">=3.10"
 authors = [
-    {name = "djdarcy", email = "djdarcy@users.noreply.github.com"},
+    {name = "Dustin Darcy", email = "djdarcy@users.noreply.github.com"},
 ]
-keywords = []
+keywords = ["space-haven", "game-mod", "bytecode-patch", "cheat-engine", "character-editor"]
 classifiers = [
-    "Development Status :: 2 - Pre-Alpha",
+    "Development Status :: 4 - Beta",
     "Environment :: Console",
-    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
     "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: Microsoft :: Windows",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Games/Entertainment",
     "Topic :: Utilities",
 ]
 
@@ -41,7 +43,7 @@ Repository = "https://github.com/djdarcy/spacehaven-cheat-engine"
 Issues = "https://github.com/djdarcy/spacehaven-cheat-engine/issues"
 
 [project.scripts]
-spacehaven-cheat-engine = "spacehaven_cheat_engine.cli:main"
+spacehaven-cheat = "spacehaven_cheat_engine.patcher:main"
 
 [tool.setuptools.dynamic]
 version = {attr = "spacehaven_cheat_engine._version.PIP_VERSION"}

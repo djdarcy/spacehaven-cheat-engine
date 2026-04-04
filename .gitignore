@@ -144,7 +144,8 @@ credentials.json
 # Add custom patterns below
 tests/output/*
 !tests/output/.gitkeep
-docs/images/bak/
+**/bak/
+**/baks/
 *.exe
 *.obj
 

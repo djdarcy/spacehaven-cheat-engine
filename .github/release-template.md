@@ -20,7 +20,7 @@
 ## Installation
 
 ```bash
-pip install spacehaven_cheat_engine
+pip install spacehaven-cheat-engine
 ```
 
 ### From Source
