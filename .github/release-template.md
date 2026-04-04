@@ -20,13 +20,13 @@
 ## Installation
 
 ```bash
-pip install $PACKAGE_NAME
+pip install spacehaven_cheat_engine
 ```
 
 ### From Source
 ```bash
-git clone https://github.com/$GITHUB_ORG/$PROJECT_NAME.git
-cd $PROJECT_NAME
+git clone https://github.com/djdarcy/spacehaven-cheat-engine.git
+cd spacehaven-cheat-engine
 pip install -e .
 ```
 
