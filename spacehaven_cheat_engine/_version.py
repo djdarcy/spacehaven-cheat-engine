@@ -19,7 +19,7 @@ PHASE = ""  # Per-MINOR feature set: "" (stable), "alpha", "beta", "rc1", etc.
 PROJECT_PHASE = ""  # "", "alpha", "beta", "stable"
 
 # Auto-updated by git hooks - do not edit manually
-__version__ = "0.1.0_main_6-20260404-fa9a0b2b"
+__version__ = "0.1.0_main_7-20260404-e8aa353a"
 __app_name__ = "spacehaven-cheat-engine"
 
 

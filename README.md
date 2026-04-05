@@ -7,6 +7,7 @@
 [![PyPI](https://img.shields.io/pypi/v/spacehaven-cheat-engine?color=green)](https://pypi.org/project/spacehaven-cheat-engine/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![Installs](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/djdarcy/3bb9a4d9536da9c4d5a8fe8f688cbd79/raw/installs.json)](https://djdarcy.github.io/spacehaven-cheat-engine/stats/#installs)
 [![GitHub Discussions](https://img.shields.io/github/discussions/djdarcy/spacehaven-cheat-engine)](https://github.com/djdarcy/spacehaven-cheat-engine/discussions)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](docs/platform-support.md)
 
