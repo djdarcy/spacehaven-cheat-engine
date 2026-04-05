@@ -445,9 +445,13 @@ def main():
 
     args = parser.parse_args()
 
-    print()
-    print("=== Space Haven - Max Character Points Patcher ===")
-    print()
+    print(r"""
+ ___                  _  _                     ___ _             _
+/ __|_ __ ___  __ __ | || | ___ _  _ __  __   / __| |_  ___ ___ | |_
+\__ \ '_ / o \/ _/ _)| -- |/ o \ \/ / _)|  \ | (__| ' \/ -_/ o \|  _|
+|___/ .__\__,_\__\__,|_||_|\__,_\__/\__,|_|_| \___|_||_\___\__,_|\__|
+    |_|              Unlock Your Crew's Full Potential
+""")
 
     # Find game
     game_path = Path(args.path) if args.path else find_game_path()
@@ -485,6 +489,9 @@ def main():
             print()
             print("  Cheat mode enabled! Point caps removed.")
             print("  Launch the game and create your dream crew.")
+            print()
+            print("  TIP: Run 'spacehaven-cheat --disable' after creating your")
+            print("  characters to restore clean game files for Steam updates.")
         return 0
 
     if args.disable:
@@ -520,6 +527,9 @@ def main():
             print()
             print("  Cheat mode enabled! Point caps removed.")
             print("  Launch the game and create your dream crew.")
+            print()
+            print("  TIP: Run 'spacehaven-cheat --disable' after creating your")
+            print("  characters to restore clean game files for Steam updates.")
 
     return 0
 

@@ -42,6 +42,19 @@ python -m spacehaven_cheat_engine
 
 **Close Space Haven before patching.** The patcher needs write access to `spacehaven.jar`.
 
+### Recommended Workflow
+
+```bash
+spacehaven-cheat --enable         # 1. Enable patches (game must be closed)
+                                  # 2. Launch game, create your characters
+                                  # 3. Close game when done
+spacehaven-cheat --disable        # 4. Restore original game files
+```
+
+**It's recommended that you disable the patches after character creation.** This keeps your game files clean for GoG / Steam updates and avoids any potential conflicts with the game or distribution platform. Don't worry, your created characters keep their stats. The patches only affect the character creation screen.
+
+### All Commands
+
 ```bash
 spacehaven-cheat                  # Toggle: enable if off, disable if on
 spacehaven-cheat --enable         # Apply patches
@@ -56,8 +69,11 @@ The patcher auto-detects common Steam installation paths. Use `--path` if your g
 
 ```
 $ spacehaven-cheat --enable
-
-=== Space Haven - Max Character Points Patcher ===
+ ___                  _  _                     ___ _             _
+/ __|_ __ ___  __ __ | || | ___ _  _ __  __   / __| |_  ___ ___ | |_
+\__ \ '_ / o \/ _/ _)| -- |/ o \ \/ / _)|  \ | (__| ' \/ -_/ o \|  _|
+|___/ .__\__,_\__\__,|_||_|\__,_\__/\__,|_|_| \___|_||_\___\__,_|\__|
+    |_|              Unlock Your Crew's Full Potential
 
   Game: E:\SteamLibrary\steamapps\common\SpaceHaven
 
